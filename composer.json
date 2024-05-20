@@ -1,18 +1,13 @@
 {
-    "name": "bfg/resource",
+    "name": "woub-chat/resource",
     "description": "A small addition to the resources to the Laravel",
-    "type": "bfg-app",
+    "type": "app",
     "keywords": ["laravel", "extension", "resource"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "bfg"
-        }
-    ],
     "prefer-stable": true,
     "require": {
         "php": ">=8.0.0",
-        "bfg/embedded-call": "*"
+        "woub-chat/embedded-call": "^1.0.1"
     },
     "require-dev": {},
     "autoload": {
